@@ -12,6 +12,8 @@ public class Main {
                 try{
                     if(arrayNumbers[i+2]==0){
                         return i+1;
+                    } else if(i==1){
+                        return i-1;
                     }
                 } catch(Exception e){
                     return i+1;
